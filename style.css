@@ -1,0 +1,19 @@
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-info:hover{
+    background-color:darkblue;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 4px 4px 41px darkblue;}
+    to {box-shadow: 4px 4px 41px purple;}
+}
